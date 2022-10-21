@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.language-btn {
+  background: transparent;
+  border-radius: 16px;
+  padding: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.active {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  background: transparent;
+  padding: 8px;
+}

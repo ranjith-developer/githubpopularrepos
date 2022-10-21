@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.github-popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 42px;
+  margin-bottom: 42px;
+}
+
+.filters-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.repos-cards-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  max-width: 1100px;
+}
+
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-view-image {
+  width: 240px;
+  height: 170px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-view-image {
+    width: 525px;
+    height: 400px;
+  }
+}
+
+.error-message {
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree-Serif';
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-size: 42px;
+  }
+}
